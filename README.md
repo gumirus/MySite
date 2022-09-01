@@ -1,2 +1,2 @@
 # new_HTML
-https://github.com/gumirus/new_HTML
+https://gumirus.github.io/new_HTML/
