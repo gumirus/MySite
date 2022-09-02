@@ -1,2 +1,1 @@
-# new_HTML
-https://gumirus.github.io/new_HTML/
+# [Мой сайт](https://gumirus.github.io/new_HTML)
