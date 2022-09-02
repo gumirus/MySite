@@ -1,7 +1,6 @@
 .avatar {
   width: 50%;
   border-radius: 50%;
-  /* box-shadow: 0 0 10px rgba(26, 9, 9, 0.6); */
   box-shadow: 8px 7px 23px;
   padding: 10px;
   margin-bottom: 10px;
@@ -34,7 +33,7 @@
 
 .container2 {
   background-color: bisque;
-  max-width: 730px;
+  max-width: 850px;
   margin: auto;
   padding-top: 5px;
   padding-bottom: 20px;
@@ -60,7 +59,12 @@
   border-radius: 10px;
   background: rgb(209, 204, 182);
   padding: 7px;
+  margin-top: 10px;
   text-align: center;
+}
+
+.icons:hover {
+  background-color: rgb(0, 0, 0, 0.1);
 }
 
 .center {
@@ -68,6 +72,9 @@
   text-align: center;
 }
 
-.icons:hover {
-  background-color: rgb(0, 0, 0, 0.1);
+@media (max-width: 750px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
 }
