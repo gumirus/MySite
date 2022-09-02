@@ -1,12 +1,14 @@
 .avatar {
-  width: 60%;
+  width: 50%;
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(26, 9, 9, 0.6);
   padding: 10px;
   margin-bottom: 10px;
 }
 .card {
+  background-color: rgb(245, 223, 193);
   border-radius: 10px;
+  box-shadow: 0 0 10px rgba(26, 9, 9, 0.6);
   text-align: center;
 }
 .card:hover {
@@ -14,10 +16,10 @@
 }
 .card img {
   border-radius: 50%;
-  width: 70%;
+  width: 60%;
   margin: auto;
   padding: 10px;
 }
 .body {
-    background-color: rgb(225, 241, 224) ;
+  background-color: rgb(241, 241, 224);
 }
