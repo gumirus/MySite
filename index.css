@@ -40,26 +40,27 @@
   padding: 10px;
 }
 .body {
-  background-color: rgb(235, 236, 215);
+  background: url('fon_result_shcool.png') 0 0 / 100% 100% no-repeat;
+  height: 100%;
 }
 
 .backgrounFonHome {
-  background-color: rgba(222, 184, 135, 0.413);
-  max-width: 950px;
-  margin: auto;
+  background-color: rgba(222, 184, 135, 0.91); 
+  height: 800px;
   padding: 4%;
   padding-top: 2%;
-  padding-bottom: 2%;
-  border-radius: 50%;
+  border-radius: 100%;
   box-shadow: 8px 7px 23px;
 }
 
 .backgrounFonStudent {
-  background-image: url("fon_result_shcool.png");
+  background: url('fon_result_shcool.png') 0 0 / 100% 100% no-repeat;
+  height: 100%;
 }
 
 .backgrounFonPlaces {
-  background-image: url("fon\ nature.png");
+  background: url("https://oir.mobi/uploads/posts/2021-06/1624305493_3-oir_mobi-p-more-pasmurno-priroda-krasivo-foto-3.jpg")
+    0 0 / 100% 100% no-repeat;
 }
 
 .body2 {
@@ -118,3 +119,4 @@
     display: block;
     text-align: center;
   }
+}
