@@ -55,11 +55,11 @@
 }
 
 .backgrounFonStudent {
- background-image: url('fon_result_shcool.png');
+  background-image: url("fon_result_shcool.png");
 }
 
 .backgrounFonPlaces {
-  background-image: url('fon\ nature.png');
+  background-image: url("fon\ nature.png");
 }
 
 .body2 {
@@ -104,8 +104,8 @@
 }
 
 .icons {
-  box-shadow:black 9px 10px 34px;
-  background:rgb(209, 204, 182);
+  box-shadow: black 9px 10px 34px;
+  background: rgb(209, 204, 182);
 }
 
 .icons:hover {
