@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html lang="ru">
     <head>
-        <meta charset="UTF-8">
-        <meta name="vieport" content="width=device-width,initial-scale=1.0">
-        <meta name="keywords" content="Ruslan Gumirov, card studenti">
-        <meta name="description" content="Карта студента - Руслана Гумирова">
-        <link rel="stylesheet" href="index.css">
-        <title>Ruslan Gumirov's card studenti</title>
-        <link
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StudentCard</title>
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
@@ -22,54 +19,54 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="manifest" href="/site.webmanifest" />
-    </head>
-<body class="body">
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body class="body">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container text-center my-1">
-          <a class="navbar-brand p-3" href="index.html">
-            <img src="agori.png" alt="log" width="120" />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+      <div class="container text-center my-1">
+        <a class="navbar-brand p-3" href="index.html">
+          <img src="agori.png" alt="log" width="120" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html"
+                >Home</a
+              >
               <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="index.html"
-                  >Home</a
-                >
-                <li class="nav-item">
-                  <a class="nav-link active" href="StudentCard.html">Student Card</a>
-                </li>
+                <a class="nav-link  active" href="StudentCard.html">Student Card</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="places.html">Favorite places</a>
-              </li>
-              
-            </ul>
-          </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="places.html">Favorite places</a>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
     <div class="container2">
         <p class="cardStud"><strong>Карточка студента</strong></p>
         <div class="info">
-        <img src="https://fs-thb02.getcourse.ru/fileservice/file/thumbnail/h/AB.5af5aa9a757969585b5a8bde196d2599.jpg/s/300x300/a/177331/sc/131" alt="Гумиров Руслан"class="avatar">
+        <img src="https://fs-thb02.getcourse.ru/fileservice/file/thumbnail/h/AB.5af5aa9a757969585b5a8bde196d2599.jpg/s/300x300/a/177331/sc/131" alt="Гумиров Руслан" class="avatarFoto">
         <div class="info-text">
             <p><strong >Имя,фамилия:</strong></p>
             <p><h4>Руслан Гумиров</h4></p>
-            <p><strong>Возраст:</strong></p>
-            <p><h5>39 лет</h5></p>
+            <p><strong>Возраст: 39 лет</strong></p>
+            
             <p><strong>Опыт программирования:</strong></p>
-            <p><h5>Два месяца</h5></p>
-            <p><strong>О себе:</strong></p>
+            <p><h5 class="lead text-muted">Два месяца</h5></p>
+            <!-- <p><strong>О себе:</strong></p> -->
             <a href="https://result.school/products/junior-js"
             class="btn btn-outline-dark"
             >
@@ -83,7 +80,6 @@
             <p><a href="https://career.habr.com/"class="btn btn-outline-dark">Трудоустроиться в начале 2023 года</a></p>
             <p><a href="https://tproger.ru/articles/junior-developer-should-know/"class="btn btn-outline-dark">Практиковаться джуниором</a> </p>
             <p><a href="https://itproger.com/news/korporativnaya-it-ierarhiya-ili-kto-takie-dzhun-midl-i-senor"class="btn btn-outline-dark">Продолжить развитие до уровни мидла</a> </p>
-
         </div>
         <div class="center">
           <p class="cardStud"><strong>Пройденныe курсы:</strong></p>
@@ -105,7 +101,6 @@
         href="https://www.udemy.com/user/vladilen/"
         class="btn btn-outline-dark"><p><strong>Автор Курса: Владилен Минин</strong></p></a>
         </div>
-        
         <div class="center">
           <p class="cardStud"><strong>Контакты:</strong></p>
             <a
@@ -135,6 +130,7 @@
           </a>
         </div>
     </div>
+</div>
 </div>
 </body>
 </html>
