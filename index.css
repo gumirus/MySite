@@ -1,5 +1,5 @@
 .container2 {
-  background-color: bisque;
+  background-color: rgba(255, 228, 196, 0.818);
   max-width: 750px;
   margin: auto;
   padding-top: 5px;
@@ -31,7 +31,7 @@
   padding: 1%;
 }
 .card:hover {
-  background-color: rgb(0, 0, 0, 0.1);
+  background-color: rgb(226, 211, 211);
 }
 .card img {
   border-radius: 50%;
@@ -40,9 +40,27 @@
   padding: 10px;
 }
 .body {
-  background-color: rgb(241, 241, 224);
+  background-color: rgb(235, 236, 215);
 }
 
+.backgrounFonHome {
+  background-color: rgba(222, 184, 135, 0.413);
+  max-width: 950px;
+  margin: auto;
+  padding: 4%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 50%;
+  box-shadow: 8px 7px 23px;
+}
+
+.backgrounFonStudent {
+ background-image: url('fon_result_shcool.png');
+}
+
+.backgrounFonPlaces {
+  background-image: url('fon\ nature.png');
+}
 
 .body2 {
   font-family: "Roboto", sans-serif;
@@ -81,7 +99,18 @@
 .center {
   margin: auto;
   margin-top: 10px;
+  margin-left: 2%;
   text-align: center;
+}
+
+.icons {
+  box-shadow:black 9px 10px 34px;
+  background:rgb(209, 204, 182);
+}
+
+.icons:hover {
+  background-color: rgb(176, 170, 147);
+  box-shadow: 0 0 10px rgba(26, 9, 9, 0.6);
 }
 
 @media (max-width: 650px) {
