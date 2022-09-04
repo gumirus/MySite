@@ -1,6 +1,6 @@
 .container2 {
   background-color: bisque;
-  max-width: 850px;
+  max-width: 750px;
   margin: auto;
   padding-top: 5px;
   padding-bottom: 20px;
@@ -84,7 +84,7 @@
   text-align: center;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 750px) {
   .info {
     display: block;
     text-align: center;
