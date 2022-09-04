@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 .container2 {
   background-color: rgba(255, 228, 196, 0.818);
   max-width: 750px;
@@ -40,12 +42,15 @@
   padding: 10px;
 }
 .body {
-  background: url('fon_result_shcool.png') 0 0 / 100% 100% no-repeat;
-  height: 100%;
+  background: url("fon_result_shcool.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .backgrounFonHome {
-  background-color: rgba(222, 184, 135, 0.91); 
+  background-color: rgba(228, 211, 188, 0.787);
   height: 800px;
   padding: 4%;
   padding-top: 2%;
@@ -54,13 +59,19 @@
 }
 
 .backgrounFonStudent {
-  background: url('fon_result_shcool.png') 0 0 / 100% 100% no-repeat;
-  height: 100%;
+  background: url("fon_result_shcool.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .backgrounFonPlaces {
-  background: url("https://oir.mobi/uploads/posts/2021-06/1624305493_3-oir_mobi-p-more-pasmurno-priroda-krasivo-foto-3.jpg")
-    0 0 / 100% 100% no-repeat;
+  background: url("https://oir.mobi/uploads/posts/2021-06/1624305493_3-oir_mobi-p-more-pasmurno-priroda-krasivo-foto-3.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .body2 {
