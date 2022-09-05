@@ -20,7 +20,7 @@
 
 .avatarFoto {
   border-radius: 50%;
-  width: 350px;
+  width: 344px;
   box-shadow: 8px 7px 23px;
   padding: 10px;
   margin-right: 2%;
@@ -86,7 +86,7 @@
   display: inline-flex;
   padding-left: 4%;
   padding-right: 2%;
-  margin-left: 6%;
+  margin-left: 3%;
   margin-right: 5%;
   margin-bottom: 3%;
   margin-top: 3%;
@@ -95,7 +95,7 @@
 .info-text {
   margin-top: 1%;
   margin-bottom: 1%;
-  margin-left: 3%;
+  padding-left: 1%;
   padding-right: 2%;
   text-align-last: auto;
 }
