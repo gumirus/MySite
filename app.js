@@ -1,5 +1,5 @@
 // Дата рождения в формате ГГГГ-ММ-ДД
-const birthDate = "1982.11.20";
+const birthDate = "1982-11-20";
 
 // Получаем элемент с id "birth-date"
 const el = document.getElementById("birth-date");
