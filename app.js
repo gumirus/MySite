@@ -28,7 +28,7 @@ function updateDates() {
 
   // Формируем текст
   const birthText = "Мне " + age + " лет";
-  const workText = "Время учёбы и практики " + workDays + " дней";
+  const workText = "Время дни практической учёбы: " + workDays + " дней";
 
   // Выводим в элементы
   birthEl.innerText = birthText;
