@@ -1,15 +1,19 @@
-// Дата рождения в формате ГГГГ-ММ-ДД
+// Дата рождения
 const birthDate = "1982-11-20";
 
-// Получаем элемент с id "birth-date"
-const el = document.getElementById("birth-date");
+// Дата начала работы
+const startWork = "2022-07-27";
 
-// Функция обновления даты
-function updateDate() {
+// Получаем элементы
+const birthEl = document.getElementById("birth-date");
+const workEl = document.getElementById("start-work");
+
+// Функция обновления дат
+function updateDates() {
   // Текущая дата
   const now = new Date();
 
-  // Вычисляем возраст
+  // Возраст
   const birth = new Date(birthDate);
   let age = now.getFullYear() - birth.getFullYear();
   const monthDiff = now.getMonth() - birth.getMonth();
@@ -18,12 +22,18 @@ function updateDate() {
     age--;
   }
 
-  // Формируем строку для вывода
-  const text = "Мне " + age + " лет";
+  // Дней работы
+  const start = new Date(startWork);
+  const workDays = Math.round((now - start) / (1000 * 60 * 60 * 24));
 
-  // Выводим в элемент
-  el.innerText = text;
+  // Формируем текст
+  const birthText = "Мне " + age + " лет";
+  const workText = "Время учёбы и пактики " + workDays + " дней";
+
+  // Выводим в элементы
+  birthEl.innerText = birthText;
+  workEl.innerText = workText;
 }
 
-// Вызываем функцию каждую секунду
-setInterval(updateDate, 1000);
+// Запуск каждую секунду
+setInterval(updateDates, 1000);
