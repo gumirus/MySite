@@ -50,7 +50,9 @@ export class Dates {
       word = "дней";
     }
 
-    const workText = `Дата начала учёбы и практики: ${start.toLocaleDateString()} (${workDays} ${word})`;
+    // const workText = `Дата начала учёбы и практики: ${start.toLocaleDateString()} (${workDays} ${word})`;
+
+    const workText = `Время практической занятий: ${workDays} ${word}`;
 
     this.birthEl.textContent = birthText;
     this.workEl.textContent = workText;
