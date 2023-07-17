@@ -146,11 +146,11 @@
   font-size: 125%;
 }
 .birth-date {
-  color: darkblue;
+  color: rgb(6, 6, 71);
 }
 
 .start-work {
-  color: rgb(9, 15, 112);
+  color: rgb(10, 13, 73);
   font-weight: bold;
   font-size: 18px;
 }
