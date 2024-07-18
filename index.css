@@ -44,7 +44,7 @@
   padding: 10px;
 }
 .body {
-  background: url("fon_result_shcool.png");
+  background: url("./developer_fon2.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -59,7 +59,7 @@
 }
 
 .backgrounFonStudent {
-  background: url("fon_result_shcool.png");
+  background: url("./developer_fon2.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
